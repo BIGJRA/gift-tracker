@@ -1,0 +1,60 @@
+# Node.js dependencies
+/node_modules/
+
+# Logs
+*.log
+logs/
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.test
+.env.production
+
+# Build output
+/dist
+/build
+/coverage
+
+# IDE and editor settings
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+*.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Public files that don't need to be versioned
+public/images/*
+public/javascripts/*
+public/stylesheets/*
+
+# Temporary files
+*.tmp
+*.temp
+
+# Miscellaneous
+*.gz
+*.zip
+*.tar
+*.rar
+*.7z
+
+# Other
+*.bak
+*.orig
+*.swp
+
+*node_modules*
