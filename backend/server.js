@@ -1,4 +1,5 @@
 const express = require('express');
+const validator = require('express-validator')
 const cors = require('cors');
 const { Pool } = require('pg');
 const bcrypt = require('bcryptjs')
