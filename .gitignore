@@ -6,11 +6,6 @@ pids/
 *.seed
 *.pid.lock
 
-# Runtime data
-*.pid
-*.seed
-*.pid.lock
-
 # Environment variables
 .env
 .env.test
@@ -56,17 +51,15 @@ public/stylesheets/*
 
 *node_modules*
 
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # dependencies
 /.pnp
 .pnp.js
 
 # testing
-/coverage
+*coverage
 
 # production
-/build
+*build
 
 # misc
 .DS_Store
